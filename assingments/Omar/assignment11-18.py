@@ -38,3 +38,35 @@ num = "950"
 num = "1500"
 
 print(num.zfill(4))
+
+name_one = "Osama"
+name_two = "Osama_Elzero"
+
+print(name_one.rjust(20,"@"))
+print(name_two.rjust(20,"@"))
+
+name_onee = "OSamA"
+name_twoo = "osaMA"
+
+print(name_onee.swapcase())
+print(name_twoo.swapcase())
+
+msg = "I Love Python And Although Love Elzero Web School"
+
+print(msg.count("Love"))
+
+print(Name.find("z"))
+
+
+mssg = "I <3 Python And Although <3 Elzero Web School"
+
+print(mssg.replace("<3", "Love" , 1))
+
+print(mssg.replace("<3", "Love" ))
+
+name = "Osama"
+age = 38
+country = "Egypt"
+
+print(f"My Name Is {name}, And My Age Is {age}, And My Country Is {country}")
+
