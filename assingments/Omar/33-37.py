@@ -38,3 +38,5 @@ print(result**3)
 print(27000%26000)
 print(1000/5)
 print(type(str(200.0)))
+
+print("=" * 40)
